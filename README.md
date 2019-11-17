@@ -41,3 +41,8 @@ It wasn't until I started typing this that I realized, I should probably have st
 ## Entry: 2019-11-16.4
 
 I made it to 24 in the githowto walkthrough and figured I would create a branch to use for the [MR Basics Tutorial](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100 "Microsoft Docs: MR Basics 100: Getting started with Unity").  I plan on creating the Unity project there and hopefully making checkpoint branches as I complete each major section.  I seem to do a lot of hoping at the end of each of these entries.  This is because I am not sure how much time I will be able to spend on this between working on projects for my job and making sure to spend quality time with my wife.  We'll see how this goes. 
+
+## Entry: 2019-11-16.5
+
+Well, that was an adventure. I am not sure if I have the correct .gitignore file for this, but it seems like I was able to get the project uploaded.  I am wondering if I should allow the entire project to get uploaded (as in, have a less restrictive .gitignore file) or not.  I'll have to do some research on that.  For now, I at least practiced a little with git add, mv, rm, branching, pulling, committing, and pull requests.  That'll require more tutorial-ing, too.  I think I am stopping for the night, though.  
+
