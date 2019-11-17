@@ -24,7 +24,7 @@ Created GitHub project page for a space to experiment with Hololen Development. 
 
 Came up with a format for entering information into this section.  Weird that I am logging an entry about logging entries, but it is helping me feel a bit more loose with this process.  Hopefully it will keep me feeling relaxed while experimenting in a public space.
 
-## Entry: 2019-11-16.3:
+### Entry: 2019-11-16.3:
 
 I am very used to creating a new project in Visual Studio and using the IDE to add the solution to a source control repo on Azure DevOps.  I figured this time I would try to use the command line approach to using GitHub (instead of the Git tools in Visual Studio).  To begin with, I opened up powershell (since I am using Windows) and navigated to the folder I want to use for the local copy of this repo.  I was pretty sure I had already downloaded Git and got everything setup some time ago, so I followed the steps I somewhat remembered from my first encounter with the process (what do you know, I am also using this to learn a bit more about markdown since I only know what I have used for wiki pages in Azure DevOps repos):
   `git clone {this_repos_git_clone.git}`
@@ -38,11 +38,11 @@ git push
 ```
 It wasn't until I started typing this that I realized, I should probably have started at the beginning of the resource I found.  So, I'm going to read through that tutorial from the top.
 
-## Entry: 2019-11-16.4
+### Entry: 2019-11-16.4
 
 I made it to 24 in the githowto walkthrough and figured I would create a branch to use for the [MR Basics Tutorial](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100 "Microsoft Docs: MR Basics 100: Getting started with Unity").  I plan on creating the Unity project there and hopefully making checkpoint branches as I complete each major section.  I seem to do a lot of hoping at the end of each of these entries.  This is because I am not sure how much time I will be able to spend on this between working on projects for my job and making sure to spend quality time with my wife.  We'll see how this goes. 
 
-## Entry: 2019-11-16.5
+### Entry: 2019-11-16.5
 
 Well, that was an adventure. I am not sure if I have the correct .gitignore file for this, but it seems like I was able to get the project uploaded.  I am wondering if I should allow the entire project to get uploaded (as in, have a less restrictive .gitignore file) or not.  I'll have to do some research on that.  For now, I at least practiced a little with git add, mv, rm, branching, pulling, committing, and pull requests.  That'll require more tutorial-ing, too.  I think I am stopping for the night, though.  
 
