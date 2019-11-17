@@ -37,3 +37,7 @@ git commit -m "Trying a push for the first time"
 git push
 ```
 It wasn't until I started typing this that I realized, I should probably have started at the beginning of the resource I found.  So, I'm going to read through that tutorial from the top.
+
+## Entry: 2019-11-16.4
+
+I made it to 24 in the githowto walkthrough and figured I would create a branch to use for the [MR Basics Tutorial](https://docs.microsoft.com/en-us/windows/mixed-reality/holograms-100 "Microsoft Docs: MR Basics 100: Getting started with Unity").  I plan on creating the Unity project there and hopefully making checkpoint branches as I complete each major section.  I seem to do a lot of hoping at the end of each of these entries.  This is because I am not sure how much time I will be able to spend on this between working on projects for my job and making sure to spend quality time with my wife.  We'll see how this goes. 
