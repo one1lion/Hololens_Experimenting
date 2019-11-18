@@ -46,3 +46,6 @@ I made it to 24 in the githowto walkthrough and figured I would create a branch 
 
 Well, that was an adventure. I am not sure if I have the correct .gitignore file for this, but it seems like I was able to get the project uploaded.  I am wondering if I should allow the entire project to get uploaded (as in, have a less restrictive .gitignore file) or not.  I'll have to do some research on that.  For now, I at least practiced a little with git add, mv, rm, branching, pulling, committing, and pull requests.  That'll require more tutorial-ing, too.  I think I am stopping for the night, though.  
 
+### Entry: 2019-11-17.1
+
+I still have a lot to learn, and hope to continue learning. For now, I have completed the tutorial through the 3rd page.  After checking it in to the first-tutorial branch, I created a pull request to merge it into master.  I have seen that there can be automated tests that could be put in place at each stage (pushing to the branch, then merging with master), and am sure I will get this setup when the time comes.  Just wanted to leave a note to remond myself.
