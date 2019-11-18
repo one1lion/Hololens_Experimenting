@@ -49,3 +49,7 @@ Well, that was an adventure. I am not sure if I have the correct .gitignore file
 ### Entry: 2019-11-17.1
 
 I still have a lot to learn, and hope to continue learning. For now, I have completed the tutorial through the 3rd page.  After checking it in to the first-tutorial branch, I created a pull request to merge it into master.  I have seen that there can be automated tests that could be put in place at each stage (pushing to the branch, then merging with master), and am sure I will get this setup when the time comes.  Just wanted to leave a note to remond myself.
+
+### Entry: 2019-11-17.2
+
+I completed through lesson 5, but couldn't quite get the touch sound to work on the Octa object.  It feels like I'm missing a step.  I added an Audio clip, but no audio file to it.  THe rest of the instructions were easy to follow, but I'm confused on this one.  I'll figure it out tomorrow.
