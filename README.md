@@ -57,3 +57,7 @@ I completed through lesson 5, but couldn't quite get the touch sound to work on 
 ### Entry: 2019-11-18.1
 
 As expected, this is getting a lot easier.  At the same time, I feel like I am barely scratching the surface, both of using Git as the version/source control for Unity projects and Hololens 2 development in general.  I completed the Getting Started tutorial through lesson 7 and kind of want to start over with a new project folder, if not a full repo by following a tutorial on creating a Git repo for Unity projects.  I think I'll do that when I'm ready to do some actual work on one of the many projects I have in mind.  For now, I'm off to my Blazor projects.
+
+### Entry: 2019-11-19.1
+
+I did a little bit of research (watched one video) on using Git with a Unity project.  It looks like the original .gitignore file I used is pretty decent.  I'm going to continue the tutorials.  To do this, I plan on creating a new Unity project in the repo and trying to do the steps from first tutorial after previewing what the next tutorial is going to be like.
