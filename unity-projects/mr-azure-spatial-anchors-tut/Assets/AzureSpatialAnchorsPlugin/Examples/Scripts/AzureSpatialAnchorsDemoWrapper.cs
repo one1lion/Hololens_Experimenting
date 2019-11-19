@@ -48,7 +48,7 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
         /// <summary>
         /// Set this string to the Spatial Anchors account ID provided in the Spatial Anchors resource.
         /// </summary>
-        public string SpatialAnchorsAccountId { get; private set;} = "";
+        public string SpatialAnchorsAccountId { get; private set; } = "";
 
         /// <summary>
         /// Set this string to the Spatial Anchors account key provided in the Spatial Anchors resource.
@@ -65,6 +65,13 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
         public event SessionErrorDelegate OnSessionError;
         public event SessionUpdatedDelegate OnSessionUpdated;
         public event OnLogDebugDelegate OnLogDebug;
+
+        public delegate void AnchorCreatedSuccessfullyDelegate();
+        public event AnchorCreatedSuccessfullyDelegate OnAnchorCreatedSuccessfully;
+
+        public delegate void AnchorCreationFailedDelegate();
+        public event AnchorCreationFailedDelegate OnAnchorCreationfailed;
+
 
         public enum SessionStatusIndicatorType
         {
@@ -144,7 +151,7 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
                 this.CreateNewCloudSession();
             });
 #else
-        CreateNewCloudSession();
+            CreateNewCloudSession();
 #endif
         }
 
@@ -271,7 +278,7 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
 #elif UNITY_ANDROID
             cloudSpatialAnchorSession.Session = GoogleARCoreInternal.ARCoreAndroidLifecycleManager.Instance.NativeSession.SessionHandle;
 #elif UNITY_WSA || WINDOWS_UWP
-        // No need to set a native session pointer for HoloLens.
+            // No need to set a native session pointer for HoloLens.
 #else
         throw new NotSupportedException("The platform is not supported.");
 #endif
@@ -358,6 +365,9 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
 
             await cloudSpatialAnchorSession.CreateAnchorAsync(cloudSpatialAnchor);
 
+            OnAnchorCreatedSuccessfully?.Invoke();
+            Debug.Log("Anchor Created Succesfully!");
+
             return cloudSpatialAnchor;
         }
 
@@ -366,6 +376,8 @@ namespace Microsoft.Azure.SpatialAnchors.Unity.Samples
             if (SessionValid())
             {
                 await cloudSpatialAnchorSession.DeleteAnchorAsync(cloudSpatialAnchor);
+                OnAnchorCreationfailed?.Invoke();
+                Debug.Log("Anchor Creation Failed...Please try again...");
             }
         }
 
