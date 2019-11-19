@@ -337,9 +337,8 @@ PlayerSettings:
     m_Automatic: 1
   m_BuildTargetVRSettings:
   - m_BuildTarget: Standalone
-    m_Enabled: 0
+    m_Enabled: 1
     m_Devices:
-    - Oculus
     - OpenVR
   - m_BuildTarget: Windows Store Apps
     m_Enabled: 1
@@ -605,7 +604,7 @@ PlayerSettings:
   metroCertificateNotAfter: 00e5a184a0bcd601
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: mr-basics-100
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
