@@ -108,4 +108,4 @@ stylecop.*
 WSATestCertificate.pfx
 WSATestCertificate.pfx.meta
 AzureSpatialAnchorsDemoConfig.asset
-
+Assets/AzureSpatialAnchorsPlugin/Examples/Resources/AzureSpatialAnchorsDemoConfig.asset
