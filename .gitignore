@@ -107,5 +107,5 @@ stylecop.*
 /Assets/AssetStoreTools*
 WSATestCertificate.pfx
 WSATestCertificate.pfx.meta
-unity-projects/mr-azure-spatial-anchors-tut/Assets/AzureSpatialAnchorsPlugin/Examples/Resources/AzureSpatialAnchorsDemoConfig.asset
-unity-projects/mr-azure-spatial-anchors-tut/Assets/AzureSpatialAnchorsPlugin/Examples/Resources/AzureSpatialAnchorsDemoConfig.asset
+AzureSpatialAnchorsDemoConfig.asset
+
