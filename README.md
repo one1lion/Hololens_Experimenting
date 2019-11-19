@@ -61,3 +61,7 @@ As expected, this is getting a lot easier.  At the same time, I feel like I am b
 ### Entry: 2019-11-19.1
 
 I did a little bit of research (watched one video) on using Git with a Unity project.  It looks like the original .gitignore file I used is pretty decent.  I'm going to continue the tutorials.  To do this, I plan on creating a new Unity project in the repo and trying to do the steps from first tutorial after previewing what the next tutorial is going to be like.
+
+### Entry: 2019-11-19.2
+
+I ran into a bit of snag while trying to go through the next module (Azure Spatial Anchors tutorials).  After performing all of the imports, I did not find the ButtonParent and ParentAnchor prefabs.  I spent some time looking around and could not get this resolved.  I also ran into a whole host of other issues, but finally got the second tutorial project back to a stable state and completed steps up through 6.  I am going to start on the one that I glazed over in the first paragraph.  It seems like the modules are not as accurate as they could be.  
