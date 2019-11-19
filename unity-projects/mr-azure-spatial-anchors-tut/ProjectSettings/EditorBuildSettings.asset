@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ASALearningModule.unity
+    guid: 3acfebae8ffea9242b5c7a541038b30a
   m_configObjects: {}
