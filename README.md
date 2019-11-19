@@ -53,3 +53,7 @@ I still have a lot to learn, and hope to continue learning. For now, I have comp
 ### Entry: 2019-11-17.2
 
 I completed through lesson 5, but couldn't quite get the touch sound to work on the Octa object.  It feels like I'm missing a step.  I added an Audio clip, but no audio file to it.  THe rest of the instructions were easy to follow, but I'm confused on this one.  I'll figure it out tomorrow.
+
+### Entry: 2019-11-18.1
+
+As expected, this is getting a lot easier.  At the same time, I feel like I am barely scratching the surface, both of using Git as the version/source control for Unity projects and Hololens 2 development in general.  I completed the Getting Started tutorial through lesson 7 and kind of want to start over with a new project folder, if not a full repo by following a tutorial on creating a Git repo for Unity projects.  I think I'll do that when I'm ready to do some actual work on one of the many projects I have in mind.  For now, I'm off to my Blazor projects.
