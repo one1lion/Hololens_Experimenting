@@ -77,3 +77,24 @@ I've tried the build in Unity using the MRTK Build Window as well as the regular
 For now, I am moving forward assuming that I am setting up the project correctly...but I would really like to test if the Hololens will work with Universal Render Pipeline (URP) (which I just finished creating a project using v2019.3.0b11).  I want to use it since Shader Graph does not work with the renderer that gets configured when using the MRTK's "Add to scene and configure" feature.  I followed [a tutorial on YouTube](https://youtu.be/taMp1g1pBeE) by Brackeys on the dissolve effect some time ago.  This made use of the Lightweight Render Pipeline (LWRP) and Shader Graph.  I immediately tried to use the same techniques with MRTK projects and believe I found resources pointing to the fact that you cannot use LWRP with Hololens projects.  
 
 While doing research on how to use LWRP with the MRTK, I saw that Unity evolved LRP into the URP and figured I would give that a go.  It seems like everything worked, at least in the Unity player.  The project also built, but I am still getting the same results with the emulator.  One day I'll have a device to use.  
+
+### Entry 2019-11-21.1
+
+A little off-topic, but I wanted to add at least one entry for today.  I am deep into redesigning one of our Line of Business (LOB) applications and fear I will not be able to do much with this in the next few days or weeks.  I still plan on doing at least one AR-related thing each day, but I'll be putting in some overtime to try to get this crucial app to a much more performant state than it currently is.  
+
+So, this morning, I played with ARCore a little bit.  I learned out how to setup a project for Android builds and added the AR Foundation, Subsystem, and ARCore packages.  I, then, added a cube to the scene and built/deployed to my android device.  It was pretty straight forward.  
+
+On a slightly funny note, I remember when I was doing some android dev work in the past (around 2013), I played around with having a camera view (FrameLayout) with a draw space view (also a FrameLayout) that would show what the world-facing camera sees and allow you to draw android logos where you touched (or dragged after touching) on the screen.  My goal at the time was to learn how to use the camera to provide the background for a game of sorts.  A short while later, as phones and AI got better, apps were coming out that were able to recognize objects in images taken from the camera and made them interractable.  Markers were being used to place and overlay 2d and 3d objects onto scenes.  Now we have devices that beam light into your eyes, mixing holograms with what your eyes naturally see in the physical world.  I am super excited about this technology and hope that I have gained enough experience and knowledge to participate in shaping it.  
+
+On a not-so-funny note, when I was going through the short tutorials on setting up projects for Android and iOS using ARCore and ARKit respectively, I was prompted to download and install the newest release of unity (2019.2.13f1).  I did so while I worked in .12f1.  After finishing the tutorials, I shut down Unity, and tried to launch a new project using .13f1.  It setup the project, installed the base packages and opened just fine.  I closed it and tried to use the new version for the ARCore tutorial project, and it looks like it tries to load, but then just goes back to the Unity Hub.  I tried to re-open the new Unity project, and it does the same (opens the Unity Hub without opening the project in Unity).  I, then, tried to open Unity directly (from start -> Unity, as well as from the install location (C:\Program Files\Unity\Hub\Editor\2019.2.13f1\Editor\Unity.exe). It just opens the Unity Hub.  There was a brief message at the bottom (took a while to get what it said, since it only appears for a fraction of a second) that reads "Unity is already in list. You cannot locate the same version".  I assume this means that Unity Hub is the default application for opening Unity...
+
+After some research, it looked like a license issue, so I spent more time than I should trying to refresh, renew, return and active a new one.  I'm not sure at what point it finally worked, but I think it was because of this:
+
+1 - Return License (it did not appear to do anything, but I assumed it did)
+(bunch of other random stuff that probably didn't do anything)
+2 - Force quit Unity Hub in Task Manager
+3 - Reopen Unity Hub and see that there is no license
+4 - Activate a new license
+5 - See that the same license information is there from before activating a new one, except that it shows today as the Last Update
+
+After that, everything worked as expected.  Glad I was able to figure it out, but not soemthing I really wanted to spend time on today.  Anyway, now that that's done, back to making the lives of a few administrative personnel better through automation.  
